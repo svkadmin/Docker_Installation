@@ -11,7 +11,7 @@ apt-get upgrade -y
 # ufw enable
 
 # Install dependencies
-sudo apt-get install -y ca-certificates curl gnupg haveged
+sudo apt-get install -y ca-certificates curl gnupg
 
 # Import Docker repository keys
 sudo install -m 0755 -d /etc/apt/keyrings
